@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.dropdown-item {
+    width: 100% !important;
+}
+
+.fs {
+    font-size: 10px;
+}
+
+.border-width {
+    border: 5px solid #000000;
+}
+
+#title {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}
